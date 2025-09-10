@@ -9,33 +9,26 @@ bool sorted_merge_3way(
     int *list_abc)
 {
     int k{0}, l{0}, y{0};
+    int prev = INT_MIN;
 
     for (int j=0; j < na+nb+nc; ++j) {
-        int a{list_a[k]}, b{list_b[l]}, c{list_c[y]};
-
-        if (k >= na) a = INT_MAX;
-        if (l >= nb) b = INT_MAX;
-        if (y >= nc) c = INT_MAX;
+        int a = (k < na) ? list_a[k] : INT_MAX;
+        int b = (l < nb) ? list_b[l] : INT_MAX;
+        int c = (y < nc) ? list_c[y] : INT_MAX;
 
         const int to_add(std::min({a, b, c}));
 
-        if (to_add == a) ++k;
-        if (to_add == b) ++l;
-        if (to_add == c) ++y;
-
-        list_abc[j] = to_add;
-    }
-
-    // Declaração corrigida para a variável 'atual'
-    int prev = INT_MIN;
-    int atual;
-
-    for (int j=0; j < na+nb+nc; ++j) {
-        atual = list_abc[j];
-        if (atual < prev) {
+        // Verifica se a ordenação foi quebrada
+        if (to_add < prev) {
             return false;
         }
-        prev = atual;
+
+        list_abc[j] = to_add;
+        prev = to_add;
+
+        if (to_add == a) ++k;
+        if (to_add == b) ++l;       
+	if (to_add == c) ++y;
     }
 
     return true;
