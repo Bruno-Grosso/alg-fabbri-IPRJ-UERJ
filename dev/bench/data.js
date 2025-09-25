@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758840791313,
+  "lastUpdate": 1758842192643,
   "repoUrl": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -450,6 +450,96 @@ window.BENCHMARK_DATA = {
             "value": 82473800.33333229,
             "unit": "ns/iter",
             "extra": "iterations: 9\ncpu: 82460611.00000013 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bruno.grosso@grad.iprj.uerj.br",
+            "name": "Bruno-Grosso",
+            "username": "Bruno-Grosso"
+          },
+          "committer": {
+            "email": "bruno.grosso@grad.iprj.uerj.br",
+            "name": "Bruno-Grosso",
+            "username": "Bruno-Grosso"
+          },
+          "distinct": true,
+          "id": "e14a11057e0b9a8b7b9877b251c5ca7169c4e53e",
+          "message": "adicionando Trees",
+          "timestamp": "2025-09-25T20:06:11-03:00",
+          "tree_id": "a4eb29d1f4c0bf09b21312e12886b051605075d1",
+          "url": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ/commit/e14a11057e0b9a8b7b9877b251c5ca7169c4e53e"
+        },
+        "date": 1758842192235,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 21.569282730360303,
+            "unit": "ns/iter",
+            "extra": "iterations: 34620258\ncpu: 21.56770729438238 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 84.80984439056014,
+            "unit": "ns/iter",
+            "extra": "iterations: 8224501\ncpu: 84.79179417693548 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 150.4119859554531,
+            "unit": "ns/iter",
+            "extra": "iterations: 4666011\ncpu: 150.38580599145604 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 681.6849037071374,
+            "unit": "ns/iter",
+            "extra": "iterations: 1022973\ncpu: 681.6173330087889 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 3340.0448622007875,
+            "unit": "ns/iter",
+            "extra": "iterations: 209798\ncpu: 3339.8575153242637 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 6694.248995290668,
+            "unit": "ns/iter",
+            "extra": "iterations: 104259\ncpu: 6693.7591095253165 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 35340.02477680829,
+            "unit": "ns/iter",
+            "extra": "iterations: 19938\ncpu: 35337.75835088773 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 76114.82908024907,
+            "unit": "ns/iter",
+            "extra": "iterations: 9209\ncpu: 76108.9865349115 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 879959.6712499991,
+            "unit": "ns/iter",
+            "extra": "iterations: 800\ncpu: 879902.34625 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 8784340.33750004,
+            "unit": "ns/iter",
+            "extra": "iterations: 80\ncpu: 8783512.512500003 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 82309626.44444478,
+            "unit": "ns/iter",
+            "extra": "iterations: 9\ncpu: 82301820.33333339 ns\nthreads: 1"
           }
         ]
       }
