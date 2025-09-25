@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758238355591,
+  "lastUpdate": 1758836485775,
   "repoUrl": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -270,6 +270,96 @@ window.BENCHMARK_DATA = {
             "value": 82347511.24999917,
             "unit": "ns/iter",
             "extra": "iterations: 8\ncpu: 82344228.62500001 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rfabbri@gmail.com",
+            "name": "Ricardo Fabbri",
+            "username": "rfabbri"
+          },
+          "committer": {
+            "email": "rfabbri@gmail.com",
+            "name": "Ricardo Fabbri",
+            "username": "rfabbri"
+          },
+          "distinct": true,
+          "id": "3b82397629302e4880508d2d33f49a069c30b14e",
+          "message": " reverting ctest link to old school",
+          "timestamp": "2025-09-01T14:55:12-03:00",
+          "tree_id": "201d1fcab3e24d42eb86f7d5afba88cda5e9bf66",
+          "url": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ/commit/3b82397629302e4880508d2d33f49a069c30b14e"
+        },
+        "date": 1758836485258,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 19.10438226538069,
+            "unit": "ns/iter",
+            "extra": "iterations: 36326554\ncpu: 19.103275196430687 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 18.97879784595635,
+            "unit": "ns/iter",
+            "extra": "iterations: 36895072\ncpu: 18.978385975232683 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 18.963237240334156,
+            "unit": "ns/iter",
+            "extra": "iterations: 36639714\ncpu: 18.96179246923162 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 18.964475652034512,
+            "unit": "ns/iter",
+            "extra": "iterations: 36925632\ncpu: 18.963117733502845 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 19.008948404510996,
+            "unit": "ns/iter",
+            "extra": "iterations: 36939993\ncpu: 19.00774163655093 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 19.049197886454223,
+            "unit": "ns/iter",
+            "extra": "iterations: 36920895\ncpu: 19.04782690127094 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 18.96023465518423,
+            "unit": "ns/iter",
+            "extra": "iterations: 35304057\ncpu: 18.958251653627244 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 18.969728127239183,
+            "unit": "ns/iter",
+            "extra": "iterations: 36861545\ncpu: 18.96828282699491 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 19.16517540327752,
+            "unit": "ns/iter",
+            "extra": "iterations: 36882150\ncpu: 19.163624870025192 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 18.970380857531197,
+            "unit": "ns/iter",
+            "extra": "iterations: 36906504\ncpu: 18.968098143351646 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 18.964506981554802,
+            "unit": "ns/iter",
+            "extra": "iterations: 36922219\ncpu: 18.963724444622432 ns\nthreads: 1"
           }
         ]
       }
