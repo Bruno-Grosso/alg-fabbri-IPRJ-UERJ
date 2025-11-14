@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758842192643,
+  "lastUpdate": 1763079459375,
   "repoUrl": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -540,6 +540,96 @@ window.BENCHMARK_DATA = {
             "value": 82309626.44444478,
             "unit": "ns/iter",
             "extra": "iterations: 9\ncpu: 82301820.33333339 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bruno.grosso@grad.iprj.uerj.br",
+            "name": "Bruno-Grosso",
+            "username": "Bruno-Grosso"
+          },
+          "committer": {
+            "email": "bruno.grosso@grad.iprj.uerj.br",
+            "name": "Bruno-Grosso",
+            "username": "Bruno-Grosso"
+          },
+          "distinct": true,
+          "id": "de10b5fbfa4bf2b35f45fe6eb24ea00b9422f380",
+          "message": "Adicionando Dynagraph e BigString",
+          "timestamp": "2025-11-13T21:12:29-03:00",
+          "tree_id": "23abe21ac713b89b07b845a267a893ee111e9ea1",
+          "url": "https://github.com/Bruno-Grosso/alg-fabbri-IPRJ-UERJ/commit/de10b5fbfa4bf2b35f45fe6eb24ea00b9422f380"
+        },
+        "date": 1763079458945,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 21.170406110591667,
+            "unit": "ns/iter",
+            "extra": "iterations: 33201104\ncpu: 21.16942026988018 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 87.51980682647297,
+            "unit": "ns/iter",
+            "extra": "iterations: 7905431\ncpu: 87.50155646162746 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 154.5143788816448,
+            "unit": "ns/iter",
+            "extra": "iterations: 4532550\ncpu: 154.49011726290937 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 698.4399816193131,
+            "unit": "ns/iter",
+            "extra": "iterations: 1003226\ncpu: 698.3016847649485 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 3427.7172074729006,
+            "unit": "ns/iter",
+            "extra": "iterations: 203400\ncpu: 3427.562876106193 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 6799.121834898682,
+            "unit": "ns/iter",
+            "extra": "iterations: 101695\ncpu: 6797.1353557205275 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 35583.29937747509,
+            "unit": "ns/iter",
+            "extra": "iterations: 19437\ncpu: 35576.929052837346 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 77601.72137191426,
+            "unit": "ns/iter",
+            "extra": "iterations: 8951\ncpu: 77589.4719025807 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 903944.7512820358,
+            "unit": "ns/iter",
+            "extra": "iterations: 780\ncpu: 903760.3717948716 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 9107893.06493524,
+            "unit": "ns/iter",
+            "extra": "iterations: 77\ncpu: 9106585.129870145 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 85954769.74999982,
+            "unit": "ns/iter",
+            "extra": "iterations: 8\ncpu: 85940671.74999997 ns\nthreads: 1"
           }
         ]
       }
